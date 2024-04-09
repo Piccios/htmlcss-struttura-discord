@@ -45,22 +45,41 @@ button{
 }
 
 .black-button{
-    background-color: #000000;
+    background-color: #23272A;
     color: #FFFFFF;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+}
+
+.white-button{
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .Jumbo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    background-color: #255EE9;
+    padding: 4rem;
 }
 
 h1{
     font-size: 3rem;
-    margin: 6rem 0 1rem;
+    margin: 0 0 1rem;
 }
 
-h1 p{
+p{
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.buttons{
+    margin: 2rem auto;
+    display: flex;
 }
