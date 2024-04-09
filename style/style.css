@@ -82,3 +82,30 @@ p.intro{
     margin: 2rem auto;
     display: flex;
 }
+
+.features{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    min-height: 500px;
+    border: 1px solid tomato;
+    padding: 100px 150px;
+    gap: 85px;
+}
+
+.typography{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    display: flex;
+    width: 450px;
+    height: 350px;
+    border-radius: 7px;
+    background-color: #292841;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
