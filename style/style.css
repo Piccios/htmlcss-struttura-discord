@@ -130,3 +130,8 @@ h2{
     flex-direction: column;
 
 }
+
+footer{
+    background-color: #23272a;
+    height: 480px;
+}
