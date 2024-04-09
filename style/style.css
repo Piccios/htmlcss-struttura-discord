@@ -86,17 +86,30 @@ p.intro{
 .features{
     display: flex;
     justify-content: center;
-    margin: 3rem auto;
     min-height: 500px;
-    border: 1px solid tomato;
     padding: 100px 150px;
     gap: 85px;
+}
+
+.inverted{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f6f6f6;
 }
 
 .typography{
     display: flex;
     flex-direction: column;
 }
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.typography p{
+    font-size: 1.5rem;
+    }
 
 .image{
     display: flex;
@@ -108,4 +121,12 @@ p.intro{
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
+}
+
+.huge{
+    flex-wrap: wrap;
+    width: 850px;
+    height: 450px;
+    flex-direction: column;
+
 }
