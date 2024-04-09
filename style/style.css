@@ -131,7 +131,26 @@ h2{
 
 }
 
-footer{
+* footer{
+    display: flex;
     background-color: #23272a;
     height: 480px;
+    color: #FFFFFF;
+    padding: 60px 60px;
+    border: 2px solid tomato;
+}
+
+h3{
+    color: #7289d9;
+    font-weight: 600;
+}
+
+dl{
+    display: flex;
+    color: #e5eeec;
+    font-weight: 500 ;
+}
+
+dt{
+    color: #7289d9;
 }
