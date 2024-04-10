@@ -45,6 +45,12 @@ button{
     margin-right: 3rem;
 }
 
+.buttons{
+    margin: 2rem auto;
+    display: flex;
+}
+
+
 .black-button{
     background-color: #23272A;
     color: #FFFFFF;
@@ -87,10 +93,6 @@ p.intro{
     font-weight: 700;
 }
 
-.buttons{
-    margin: 2rem auto;
-    display: flex;
-}
 
 .features{
     display: flex;
