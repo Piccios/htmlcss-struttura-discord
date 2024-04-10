@@ -57,6 +57,13 @@ button{
     font-weight: 500;
 }
 
+.purle-button{
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #7289d9;
+    color: #FFFFFF;
+}
+
 .Jumbo{
     display: flex;
     flex-direction: column;
