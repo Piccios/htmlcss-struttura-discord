@@ -145,39 +145,29 @@ h2{
     width: 850px;
     height: 450px;
     flex-direction: column;
-
 }
 
 footer{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #23272a;
-    height: 480px;
     color: #FFFFFF;
-    padding: 60px 60px;
+    padding: 2rem;
     border: 2px solid tomato;
-    flex-direction: row;
-    justify-content: center;
 }
 
-.footer-social{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.titles{
+    width: 10%;
 }
 
-.links{
+.ul-footer>li{
+    padding: 4%;
+}
+
+nav{
     display: flex;
-    flex-direction: column;
-    
-}
-
-.useful-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 h3{
@@ -186,20 +176,5 @@ h3{
     margin: 0 auto;
 }
 
-h4{
-    font-weight: 800;
-    margin: 15px;
-    color: #7289d9;
-}
 
-dl{
-    display: flex;
-    color: #e5eeec;
-    font-weight: 500;
-    border: 2px solid tomato;
-    flex-direction: column;
-}
 
-dt{
-    color: #7289d9;
-}
